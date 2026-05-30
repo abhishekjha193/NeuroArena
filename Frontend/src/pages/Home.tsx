@@ -31,10 +31,9 @@ function Home() {
 
           <div className="mt-10 flex justify-center">
             <a
-              href="/arena"
               className="rounded-full bg-white px-8 py-3 text-black font-bold hover:scale-105 transition"
             >
-              Enter Arena
+              AI Arena
             </a>
           </div>
         </div>
