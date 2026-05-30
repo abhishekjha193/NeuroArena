@@ -113,15 +113,6 @@ npm run dev
 
 ---
 
-## Future Improvements
-
-- GPT Integration
-- Claude Integration
-- Battle History
-- User Authentication
-- Global Leaderboards
-- Analytics Dashboard
-
 ## Author
 
 **Abhishek Jha**
