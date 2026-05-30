@@ -6,8 +6,6 @@ import JudgeCard from "../components/JudgeCard";
 import LoadingArena from "../components/LoadingArena";
 import { invokeArena } from "../services/api";
 
-import logo2 from "../assets/logo2.png";
-
 type ArenaResult = {
   problem: string;
   solution_1: string;
