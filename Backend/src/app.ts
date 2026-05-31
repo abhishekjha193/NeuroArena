@@ -7,7 +7,7 @@ app.use(express.json())
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://cyberdome.vercel.app"
+    "https://neuroarena.vercel.app"
   ],
   methods: ["GET", "POST"],
   credentials: true,
