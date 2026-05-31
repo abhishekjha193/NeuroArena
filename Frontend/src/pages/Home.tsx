@@ -1,6 +1,5 @@
 import Navbar from "../components/Navbar";
 import Orb from "../components/Orb";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
