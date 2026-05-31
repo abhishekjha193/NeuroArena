@@ -5,11 +5,13 @@ import cors from 'cors';
 const app = express();
 app.use(express.json())
 app.use(cors({
-    origin: "https://cyberdome.vercel.app/",
-    methods: ["GET", "POST"],
-    credentials: true,
-}))
-
+  origin: [
+    "http://localhost:5173",
+    "https://cyberdome.vercel.app"
+  ],
+  methods: ["GET", "POST"],
+  credentials: true,
+}));
 
 app.get('/', async (req, res) => {
 
