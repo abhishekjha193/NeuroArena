@@ -31,10 +31,40 @@ function Home() {
 
           <div className="mt-10 flex justify-center">
             <a
-              href="/arena"
-              className="rounded-full bg-white px-8 py-3 text-black font-bold hover:scale-105 transition"
-            >
-              Enter Arena
+              className="
+              group
+              relative
+              overflow-hidden
+              select-none
+              rounded-full
+              bg-white
+              px-8 py-3
+              font-bold
+              text-black
+              cursor-pointer
+              transition-all
+              duration-300
+              hover:scale-105
+              hover:shadow-[0_0_30px_rgba(255,255,255,0.25)]
+              active:scale-95
+            "
+                      >
+                        <span className="relative z-10">AI Arena</span>
+
+                        <span
+                          className="
+                absolute
+                inset-0
+                -translate-x-full
+                bg-gradient-to-r
+                from-transparent
+                via-black/10
+                to-transparent
+                transition-transform
+                duration-700
+                group-hover:translate-x-full
+              "
+              />
             </a>
           </div>
         </div>
