@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Orb from "../components/Orb";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -31,9 +32,10 @@ function Home() {
 
           <div className="mt-10 flex justify-center">
             <a
+              href="/arena"
               className="rounded-full bg-white px-8 py-3 text-black font-bold hover:scale-105 transition"
             >
-              AI Arena
+              Enter Arena
             </a>
           </div>
         </div>
@@ -46,13 +48,22 @@ function Home() {
           </p>
 
           <div className="flex flex-wrap justify-center gap-6 text-sm text-zinc-500">
-            <a className="hover:text-cyan-400 transition" href="https://www.linkedin.com/in/abhishek-jha-594b31268">
+            <a
+              className="hover:text-cyan-400 transition"
+              href="https://www.linkedin.com/in/abhishek-jha-594b31268"
+            >
               LinkedIn
             </a>
-            <a className="hover:text-cyan-400 transition" href="https://www.instagram.com/thecode_director/">
+            <a
+              className="hover:text-cyan-400 transition"
+              href="https://www.instagram.com/thecode_director/"
+            >
               Instagram
             </a>
-            <a className="hover:text-cyan-400 transition" href="https://x.com/Abhishek_Jha_10">
+            <a
+              className="hover:text-cyan-400 transition"
+              href="https://x.com/Abhishek_Jha_10"
+            >
               Twitter
             </a>
           </div>
