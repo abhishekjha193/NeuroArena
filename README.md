@@ -103,7 +103,7 @@ npm run dev
 ---
 ## ScreenShot
 
-<img width="1206" height="717" alt="image" src="https://github.com/user-attachments/assets/168ecd1c-a48f-40e3-b19f-0cba25f28a5b" />
+<img width="1201" height="708" alt="asd" src="https://github.com/user-attachments/assets/6578fb7c-84c8-498d-88aa-6d4b4818b186" />
 
 ---
 
