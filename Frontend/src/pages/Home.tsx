@@ -27,7 +27,7 @@ function Home() {
           </h1>
 
           <p className="mt-6 text-sm md:text-lg text-zinc-400 leading-relaxed">
-            Compare top AI models in real time.
+            Compare AI models in real time
           </p>
 
           <div className="mt-10 flex justify-center">
