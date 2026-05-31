@@ -1,6 +1,6 @@
-# CyberDome ⚔️
+# NeuroArena ⚔️
 
-CyberDome is an AI Battle Arena where multiple AI models compete on the same prompt and an AI Judge evaluates their responses to determine the winner.
+NeuroArena is an AI Battle Arena where multiple AI models compete on the same prompt and an AI Judge evaluates their responses to determine the winner.
 
 ## Features
 
@@ -103,7 +103,7 @@ npm run dev
 ---
 ## ScreenShot
 
-<img width="1227" height="735" alt="image" src="https://github.com/user-attachments/assets/ecdc2a3d-6fa2-46f6-8ebc-dd7bf8b66d52" />
+<img width="1206" height="717" alt="image" src="https://github.com/user-attachments/assets/168ecd1c-a48f-40e3-b19f-0cba25f28a5b" />
 
 ---
 
