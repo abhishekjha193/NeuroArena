@@ -44,7 +44,7 @@ function Arena() {
       : "Tie";
 
   return (
-    <div className="min-h-screen bg-[#000103] text-white overflow-hidden">
+    <div className="min-h-screen bg-[#000000] text-white overflow-hidden">
       <Navbar />
 
       <div className="fixed inset-0 -z-10">
