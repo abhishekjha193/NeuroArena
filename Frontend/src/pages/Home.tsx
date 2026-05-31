@@ -37,15 +37,15 @@ function Home() {
             Compare AI models in real time
           </p>
 
-          <div className="mt-7 flex flex-col items-center gap-3">
-            <button className="group relative overflow-hidden rounded-full bg-white px-7 py-3 font-bold text-black transition hover:scale-105 hover:shadow-[0_0_25px_rgba(255,255,255,0.2)]">
+          <div className="mt-4 flex flex-col items-center gap-3">
+            <button className="group relative overflow-hidden rounded-full bg-white px-5 py-2 font-bold text-black transition hover:scale-105 hover:shadow-[0_0_25px_rgba(255,255,255,0.2)]">
               <span className="relative z-10">AI Arena</span>
               <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-black/10 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
             </button>
 
             <button
               onClick={scrollToWork}
-              className="mt-10 w-11 h-11 flex items-center justify-center rounded-full border border-white/20 bg-white/5 backdrop-blur-xl text-white text-xl hover:bg-white/10 transition animate-bounce"
+              className="mt-5 w-10 h-10 flex items-center justify-center rounded-full border border-white/20 bg-white/5 backdrop-blur-xl text-white text-xl hover:bg-white/10 transition animate-bounce"
             >
               ↓
             </button>
